@@ -1,0 +1,32 @@
+{
+  "name": "encryption",
+  "version": "1.0.0",
+  "description": "sample encryption example to show encryption in different using different methods and techniques",
+  "main": "app.js",
+  "scripts": {
+    "test": "yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordan-type/encryption-techniques.git"
+  },
+  "keywords": [
+    "node.js",
+    "sha1",
+    "sha256",
+    "md5",
+    "passwords"
+  ],
+  "author": "Jordan type",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordan-type/encryption-techniques/issues"
+  },
+  "homepage": "https://github.com/Jordan-type/encryption-techniques#readme",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1",
+    "simple-cipher-js": "^0.0.7"
+  }
+}
